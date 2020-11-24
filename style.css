@@ -1,0 +1,35 @@
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+
+
+.alert {
+  padding: 20px;
+  background-color: brown;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
